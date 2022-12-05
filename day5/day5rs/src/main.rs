@@ -52,8 +52,6 @@ fn main() {
         for _ in 0..cnt {
             let moved = removing_a.pop().unwrap();
             updated_a.push(moved);
-        }
-        for _ in 0..cnt {
             let moved = removing_b.pop().unwrap();
             updated_b.push(moved);
         }
